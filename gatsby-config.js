@@ -25,7 +25,7 @@ module.exports = {
         defer: false,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "jvn.io",
+        cookieDomain: process.env.PORT || "jvn.io",
       },
     },
     {
