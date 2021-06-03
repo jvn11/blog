@@ -1,0 +1,44 @@
+* {
+    transition: 0.3s;
+}
+
+.circle-link {
+    margin: .25rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 2.1875rem;
+    width: 2.1875rem;
+    line-height: 2.1875rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #ebebeb;
+}
+
+.contact-list {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    list-style: none;
+    padding: 0;
+    margin: .625rem -.1875rem;
+    width: 8.75rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #0dcaf0!important;
+}
+
+.mar-5 {
+    margin-right: .3rem;
+}
+
+.mal-5 {
+    margin-left: .3rem;
+}
