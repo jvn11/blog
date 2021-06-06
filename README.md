@@ -1,1 +1,1 @@
-View on (jvn.netlify.dev)[jvn.netlify.dev] (i dont have a custom domain)
+View on [jvn.netlify.dev]. I dont have a custom domain.
