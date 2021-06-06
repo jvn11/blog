@@ -9,6 +9,11 @@ export default function Template({
 }) {
   const { markdownRemark } = data 
   const { frontmatter, html, timeToRead } = markdownRemark
+
+  if (frontmatter.title === "My Minecraft Server!") {
+    console.warn("The port is only local, to where I live (on /posts/my-minecraft-server)")
+  }
+
   deckDeckGoHighlightElement();
   return (
     <Layout title={frontmatter.title}>

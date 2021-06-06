@@ -46,4 +46,9 @@ module.exports = {
       },
     },
   ],
+  flags: {
+    DEV_SSR: true,
+    FUNCTIONS: true,
+    PARALLEL_SOURCING: true,
+  }
 }
